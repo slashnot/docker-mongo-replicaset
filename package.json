@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "docker compose up -d",
+    "docker:dev": "docker compose up",
+    "docker:start": "docker compose up -d",
+    "dcoker:stop": "docker stop mongo-replicaset-mongo1-1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
